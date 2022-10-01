@@ -1,0 +1,28 @@
+.unfilled {
+  position: relative;
+  display: inline-block;
+}
+.unfilled span {
+  font-size: 3rem;
+  padding: 0.1rem;
+  color: #ffa41c;
+}
+
+.unfilled .filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+.star-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  font-size: 14px;
+  white-space: nowrap;
+  margin-left: 1rem;
+}
